@@ -1,15 +1,17 @@
-<!-- ──────────────────────────────
-   Minimal Neon Terminal Profile
-   Inspired by: kitty • p10k • claude code
-────────────────────────────── -->
+<!--
+───────────────────────────────────────────────────────────────────────────────
+  artur@secbox — cyber • python • linux
+  aesthetic: kitty | powerlevel10k | oh-my-zsh | claude-code
+───────────────────────────────────────────────────────────────────────────────
+-->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2800&pause=700&color=7AA2F7&center=true&vCenter=true&width=520&lines=Artur+%E2%80%A2+Cybersecurity+%E2%80%A2+Python+%E2%80%A2+Linux;Automation+with+Python+%26+Bash;Offensive+mindset+%7C+Defensive+habits" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2600&pause=700&color=7AA2F7&center=true&vCenter=true&width=780&lines=%E2%9D%AF+artur%40secbox+~+%23+whoami;%E2%9D%AF+Cybersecurity+%E2%80%A2+Python+%E2%80%A2+Linux;%E2%9D%AF+Automation+%7C+CLI-first+%7C+Secure+by+design" />
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=python,linux,bash&theme=dark" height="46" />
+<img src="https://skillicons.dev/icons?i=python,linux,bash&theme=dark" height="44" />
 
 <br/><br/>
 
@@ -18,9 +20,6 @@
 </a>
 <a href="https://instagram.com/artoor.py">
   <img src="https://img.shields.io/badge/Instagram-F7768E?style=flat&logo=instagram&logoColor=0B1220" />
-</a>
-<a href="https://tiktok.com/@artoor.py">
-  <img src="https://img.shields.io/badge/TikTok-9ECE6A?style=flat&logo=tiktok&logoColor=0B1220" />
 </a>
 <a href="https://x.com/artoor.py">
   <img src="https://img.shields.io/badge/X-2AC3DE?style=flat&logo=x&logoColor=0B1220" />
@@ -34,10 +33,20 @@
 ---
 
 ```txt
-❯ whoami
-Artur — cybersecurity student focused on Linux environments, automation and hands-on labs.
+┌─[artur@secbox]─[~/profile]──────────────────────────────────────────────
+└──╼ ❯ cat about.txt
 
-❯ focus --now
-• Security fundamentals + labs (TryHackMe + practice)
-• Automation with Python & Bash
-• Build secure, scalable solutions (dev + security mindset)
+Name:        Artur
+Role:        Cybersecurity student
+Environment: Linux / CLI-first
+Focus:       Automation • Security • Clean tooling
+
+Mindset:
+  - Offensive curiosity, defensive discipline
+  - Secure-by-design over secure-by-patch
+  - Scripts > manual work
+
+Current:
+  - Python & Bash automation
+  - Security labs (TryHackMe)
+  - Building repeatable, auditable solutions
