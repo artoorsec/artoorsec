@@ -11,7 +11,7 @@ permissions:
 jobs:
   metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Generate metrics SVG
@@ -31,32 +31,38 @@ jobs:
           committer_branch: output
           committer_message: "chore: update metrics"
 
-          # --- languages ---
+          retries: 3
+          retries_delay: 300
+
+          # --- languages (leve) ---
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 30
-          plugin_languages_categories: markup, programming
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: programming
           plugin_languages_colors: github
           plugin_languages_limit: 6
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_indepth: no
-          plugin_languages_recent_load: 100
+          plugin_languages_recent_load: 50
+          plugin_languages_recent_days: 14
 
-          # --- habits ---
+          # --- habits (leve) ---
           plugin_habits: yes
-          plugin_habits_charts: yes
+          plugin_habits_charts: no
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 6
+          plugin_habits_from: 100
+          plugin_habits_languages_limit: 4
           plugin_habits_trim: no
 
           # --- achievements ---
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_limit: 6
+          plugin_achievements_threshold: B
+          plugin_achievements_limit: 4
 
-          # --- notable ---
+          # --- desabilitados ---
           plugin_notable: no
+          plugin_stars: no
+          plugin_topics: no
