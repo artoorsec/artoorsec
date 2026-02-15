@@ -5,7 +5,7 @@
 </a>
 
 <p>
-  <code>offensive security</code> &nbsp;·&nbsp; <code>recon automation</code> &nbsp;·&nbsp; <code>bug bounty</code>
+  <code>offensive security</code> &nbsp;&middot;&nbsp; <code>recon automation</code> &nbsp;&middot;&nbsp; <code>bug bounty</code>
 </p>
 
 <a href="https://linkedin.com/in/arturseccode"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>&nbsp;
@@ -21,32 +21,26 @@
 
 <br/>
 
-```python
-# artoorsec.py
+```
+artoorsec@arch ~ $ neofetch
+                                    artoorsec
+   >_                               ─────────────────────────────
+                                    handle    artoorsec
+                                    name      Artur
+                                    location  Brazil
+                                    class     Offensive Security
 
-class SecurityResearcher:
-    def __init__(self):
-        self.handle   = "artoorsec"
-        self.name     = "Artur"
-        self.location = "Brazil"
-        self.focus    = [
-            "Bug Bounty Hunting",
-            "Recon Automation",
-            "Tool Development",
-            "Android Security",
-        ]
+                                    focus     Bug Bounty Hunting
+                                              Recon Automation
+                                              Tool Development
 
-    def toolkit(self):
-        return {
-            "recon"   : ["subfinder", "httpx", "dnsx", "katana", "nuclei", "amass"],
-            "exploit" : ["Burp Suite", "Metasploit", "sqlmap"],
-            "network" : ["Nmap", "Wireshark", "Netcat", "Masscan"],
-            "osint"   : ["Shodan", "theHarvester", "Maltego"],
-            "custom"  : ["ReconWizard"],
-        }
+                                    recon     subfinder httpx dnsx katana nuclei amass
+                                    exploit   Burp Suite  Metasploit  sqlmap
+                                    network   Nmap  Wireshark  Netcat  Masscan
+                                    osint     Shodan  theHarvester  Maltego
+                                    custom    ReconWizard
 
-    def motto(self):
-        return "if it's online, it's in scope"
+                                    motto     "if it's online, it's in scope"
 ```
 
 <div align="center">
@@ -65,7 +59,7 @@ class SecurityResearcher:
 
 <table align="center">
   <tr>
-    <td width="50%">
+    <td width="100%">
       <h3 align="center">
         <a href="https://github.com/artoorsec/reconwizard">ReconWizard</a>
       </h3>
@@ -81,20 +75,6 @@ class SecurityResearcher:
         <code>325+ tests</code>&nbsp; <code>zero external deps</code>
       </p>
     </td>
-    <td width="50%">
-      <h3 align="center">
-        <a href="https://github.com/artoorsec/ghostframe-hud">GhostFrame HUD</a>
-      </h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Android-34A853?style=flat-square&logo=android&logoColor=white"/>
-      </p>
-      <p align="center">
-        Real-time cyberpunk camera overlay for Android. Detects 80 COCO object categories
-        with synthetic HUD analysis. OpenGL ES 3.0, MediaPipe, CameraX.
-        8-module Gradle architecture.
-      </p>
-    </td>
   </tr>
 </table>
 
@@ -104,7 +84,7 @@ class SecurityResearcher:
 <h3>stats</h3>
 
 <a href="https://github.com/artoorsec">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=artoorsec&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7AA2F7&icon_color=7AA2F7&text_color=c9d1d9&ring_color=7AA2F7&include_all_commits=true&count_private=true" alt="stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=artoorsec&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7AA2F7&icon_color=7AA2F7&text_color=c9d1d9&ring_color=7AA2F7&include_all_commits=true" alt="stats"/>
 </a>&nbsp;
 <a href="https://github.com/artoorsec">
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=artoorsec&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=7AA2F7&text_color=c9d1d9&langs_count=6" alt="langs"/>
