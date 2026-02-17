@@ -38,7 +38,6 @@ artoorsec@arch ~ $ neofetch
                                     exploit   Burp Suite  Metasploit  sqlmap
                                     network   Nmap  Wireshark  Netcat  Masscan
                                     osint     Shodan  theHarvester  Maltego
-                                    custom    ReconWizard
 
                                     motto     "if it's online, it's in scope"
 ```
@@ -50,33 +49,6 @@ artoorsec@arch ~ $ neofetch
 </a>
 
 </div>
-
----
-
-<div align="center">
-<h3>projects</h3>
-</div>
-
-<table align="center">
-  <tr>
-    <td width="100%">
-      <h3 align="center">
-        <a href="https://github.com/artoorsec/reconwizard">ReconWizard</a>
-      </h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/stdlib--only-0d1117?style=flat-square"/>
-      </p>
-      <p align="center">
-        Recon automation for bug bounty. AI-assisted target profiling, tool orchestration
-        <code>subfinder &rarr; httpx &rarr; nuclei</code>, hunt queue with EV scoring,
-        fail-fast pipeline, scope enforcement, OPSEC controls, secret redaction.
-        <br/><br/>
-        <code>325+ tests</code>&nbsp; <code>zero external deps</code>
-      </p>
-    </td>
-  </tr>
-</table>
 
 ---
 
